@@ -1,4 +1,36 @@
+ /* Custom CSS for the fixed side navigation bar */
+ .fixed-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transform: translate(0, -50%);
+    z-index: 1;
 
+    @media screen and (max-width: 768px) {
+        display: none;
+        
+    }
+}
+
+
+
+        /* Style for the button icon */
+        .fixed-sidebar i {
+            color: lightsteelblue
+        }
+
+        /* Style for the navigation buttons */
+        .circle {
+            border-radius: 50%;
+            padding-top: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        /* Hover effect for navigation items */
+        .circle:hover {
+            background-color: lightblue;
+        }
 /* CSS for the animation */
 @keyframes blink {
     0% {
