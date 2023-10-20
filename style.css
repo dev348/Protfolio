@@ -1,0 +1,136 @@
+
+/* CSS for the animation */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    animation: blink 2s infinite; /* Adjust the time and style as needed */
+}
+
+/* CSS for the circle */
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 auto; /* Center the circle horizontally */
+    margin-top: 20px; /* Add some spacing */
+}
+
+
+
+/* Apply the animation to the About Me section */
+#about {
+    animation: fadeIn 1s;
+}
+
+
+/* CSS for the project cards */
+.project-card {
+    background-color: #f0f0f0; /* Placeholder background color */
+    border: none;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.blink {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ff5733;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* About Me Section */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #fff;
+}
+
+.list-group-item {
+    border: none;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f8f9fa;
+}
+
+.project-card {
+    margin: 10px 0;
+    border: none;
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #ffffff;
+    color: #000000;}
+
+.contact-links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Section */
+#footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+  
